@@ -28,20 +28,16 @@ Book Social Network is a full-stack application that enables users to manage the
 - Book Return Approval: Functionality to approve book returns.
 
 #### Class diagram
-![Class diagram](![class-diagram](https://github.com/user-attachments/assets/cd650a8f-ad4f-4fb2-a0a9-72390a2a1f89)
-)
+![Class diagram](https://github.com/marciowillian/book-social-network/blob/main/screenshots/class-diagram.png)
 
 #### Spring security diagram
-![Security diagram](![security](https://github.com/user-attachments/assets/af1398a0-badd-4d65-9f77-65adbeb9ddb7)
-)
+![Security diagram](https://github.com/marciowillian/book-social-network/blob/main/screenshots/security.png)
 
 #### Backend pipeline
-![Security diagram](![be-pipeline](https://github.com/user-attachments/assets/e2065fbf-1a32-46ef-87d0-941818052995)
-)
+![Security diagram](https://github.com/marciowillian/book-social-network/blob/main/screenshots/be-pipeline.png)
 
 #### Frontend pipeline
-![Security diagram](![fe-pipeline](https://github.com/user-attachments/assets/0397c060-3b0a-48fd-a977-7a4c5d95cded)
-)
+![Security diagram](https://github.com/marciowillian/book-social-network/blob/main/screenshots/fe-pipeline.png)
 
 
 ## Technologies Used
