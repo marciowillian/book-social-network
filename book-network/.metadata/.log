@@ -1,0 +1,35 @@
+!SESSION 2024-06-25 17:03:44.909 -----------------------------------------------
+eclipse.buildId=4.19.0.202306150758
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data \\wsl.localhost\Ubuntu\home\marcio\development\youtube-tutorials\Bouali Ali\Full web application - Springboot - Angular - Docker - Keycloack\book-social-network\book-network -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-06-25 17:03:45.752
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-06-25 17:03:46.150
+!MESSAGE Could not obtain lock for workspace location
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-06-25 17:03:46.155
+!MESSAGE Could not obtain lock for workspace location
+!STACK 0
+java.io.IOException: An error occurred while locking file "\\wsl.localhost\Ubuntu\home\marcio\development\youtube-tutorials\Bouali Ali\Full web application - Springboot - Angular - Docker - Keycloack\book-social-network\book-network\.metadata\.lock": "Incorrect function". A common reason is that the file system or Runtime Environment does not support file locking for that location. Please choose a different location, or disable file locking by passing "-Dosgi.locking=none" as a VM argument.
+	at org.eclipse.osgi.internal.location.Locker_JavaNio.lock(Locker_JavaNio.java:53)
+	at org.eclipse.osgi.internal.location.BasicLocation.lock(BasicLocation.java:227)
+	at org.eclipse.osgi.internal.location.BasicLocation.lock(BasicLocation.java:193)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:226)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
